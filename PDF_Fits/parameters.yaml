@@ -1,0 +1,222 @@
+# Parameterisation used in https://arxiv.org/pdf/2101.05095
+
+Minimizer: MINUIT
+MINUIT:
+  Commands: |
+    call fcn 1
+    set str 1 
+    call fcn 3
+    migrad
+    hesse
+    call fcn 3
+    
+  #doErrors : Pumplin # None
+  doErrors : Hesse # None 
+
+CERES:
+  offset: 2
+  tolerance: 1e-6
+  strategy: 0
+  covariance: 1
+  threads: 20 
+
+Parameters:
+
+  # Minimum found adding Z+jets data (no negative gluon)
+  #Adbar : [ 0.16199866, 0.00978477 ]
+  #Adv  :  DEPENDENT
+  #Ag   :  DEPENDENT
+  #Auv  :  DEPENDENT
+  #Bdbar : [ -0.10328029, 0.00919799 ]
+  #Bdv : [ 0.79908267, 0.03996262 ]
+  #Bg : [ 0.10205995, 0.02897102 ]
+  #Buv : [ 0.76767407, 0.01324577 ]
+  #Cdbar : [ 3.04491933, 0.58538157 ]
+  #Cdv : [ 4.10526446, 0.19808495 ]
+  #Cg : [ 6.51891121, 1.20824203 ]
+  #Cstr : [ 18.03978987, 2.09759244 ]
+  #Cubar : [ 5.40215092, 0.44788529 ]
+  #Cuv : [ 4.80632700, 0.07458583 ]
+  #Dg : [ -0.53491806, 1.09548056 ]
+  #Euv : [ 10.15443382, 0.85412899 ]
+  #ZERO : [ 0.00000000, 0.00000000 ]
+  #rs : [ 1.24146705, 0.06788002 ]
+
+  # Minimum found for ptw W+jets (no negative gluon)
+  #Adbar : [ 0.16309289, 0.01048295 ]
+  #Adv  :  DEPENDENT
+  #Ag   :  DEPENDENT
+  #Auv  :  DEPENDENT
+  #Bdbar : [ -0.10196964, 0.00985131 ]
+  #Bdv : [ 0.84044289, 0.04937437 ]
+  #Bg : [ 0.11040807, 0.03135665 ]
+  #Buv : [ 0.78324693, 0.01444098 ]
+  #Cdbar : [ 3.63839580, 0.79523454 ]
+  #Cdv : [ 4.24066277, 0.21507891 ]
+  #Cg : [ 6.76786118, 1.25791138 ]
+  #Cstr : [ 16.55478465, 2.36692030 ]
+  #Cubar : [ 5.38379787, 0.47190090 ]
+  #Cuv : [ 4.77114733, 0.07530268 ]
+  #Dg : [ -0.53666774, 1.12686852 ]
+  #Euv : [ 9.55715292, 0.84018302 ]
+  #ZERO : [ 0.00000000, 0.00000000 ]
+  #rs : [ 1.20892293, 0.07084198 ]
+
+  # Minimum found for ptw W+jets (negative gluon)
+  #Adbar : [ 0.16629541, 0.01451945 ]
+  #Adv  :  DEPENDENT
+  #Ag   :  DEPENDENT
+  #Agp : [ 0.14697686, 0.02362206 ]
+  #Auv  :  DEPENDENT
+  #Bdbar : [ -0.10833485, 0.01339468 ]
+  #Bdv : [ 0.90264727, 0.04588555 ]
+  #Bg : [ -0.82434526, 0.04108695 ]
+  #Bgp : [ -0.84664540, 0.03079847 ]
+  #Buv : [ 0.79262198, 0.01518616 ]
+  #Cdbar : [ 11.72601773, 2.60666127 ]
+  #Cdv : [ 4.39932437, 0.27341585 ]
+  #Cg : [ 1.91439155, 0.53022695 ]
+  #Cgp : [ 25.00000000, 0.00000000 ]
+  #Cstr : [ 9.99210803, 1.49064759 ]
+  #Cubar : [ 7.32043902, 0.81863619 ]
+  #Cuv : [ 4.82658088, 0.07214210 ]
+  #Dg : [ 3.99150146, 2.12272024 ]
+  #Euv : [ 9.93441169, 0.87718108 ]
+  #ZERO : [ 0.00000000, 0.00000000 ]
+  #rs : [ 1.07183136, 0.04898077 ]
+
+  Adbar : [ 0.14425659, 0.01286008 ]
+  Adv  :  DEPENDENT
+  Ag   :  DEPENDENT
+  Agp : [ 0.27214490, 0.09812968 ]
+  Auv  :  DEPENDENT
+  Bdbar : [ -0.12884182, 0.01403315 ]
+  Bdv : [ 0.93892664, 0.06563931 ]
+  Bg : [ -0.51713422, 0.32937789 ]
+  Bgp : [ -0.60635252, 0.17502031 ]
+  Buv : [ 0.79805810, 0.01521750 ]
+  Cdbar : [ 11.98102746, 2.87727316 ]
+  Cdv : [ 4.46037385, 0.30523276 ]
+  Cg : [ 5.54837282, 2.47180809 ]
+  Cgp : [ 25.00000000, 0.00000000 ]
+  Cstr : [ 7.37931879, 0.94014414 ]
+  Cubar : [ 5.56194696, 0.51307430 ]
+  Cuv : [ 4.80879490, 0.07708281 ]
+  Dg : [ 5.96469083, 3.78006194 ]
+  Euv : [ 9.75919817, 0.83716940 ]
+  ZERO : [ 0.00000000, 0.00000000 ]
+  rs : [ 1.10403258, 0.04810764 ]
+
+
+  # Minimum found for the reference
+  #Adbar : [ 0.17051863, 0.01131447 ]
+  #Adv  :  DEPENDENT
+  #Ag   :  DEPENDENT
+  #Auv  :  DEPENDENT
+  #Bdbar : [ -0.09819909, 0.01017016 ]
+  #Bdv : [ 0.99527000, 0.04442699 ]
+  #Bg : [ 0.10710629, 0.03218337 ]
+  #Buv : [ 0.81663613, 0.01285380 ]
+  #Cdbar : [ 13.45821866, 1.88274747 ]
+  #Cdv : [ 4.67237094, 0.26092272 ]
+  #Cg : [ 6.53331280, 1.41066941 ]
+  #Cstr : [ 7.33658296, 0.85423413 ]
+  #Cubar : [ 5.78152875, 0.48684993 ]
+  #Cuv : [ 4.77985059, 0.07556571 ]
+  #Dg : [ -0.53343111, 1.29770446 ]
+  #Euv : [ 8.98583659, 0.78811066 ]
+  #ZERO : [ 0.00000000, 0.00000000 ]
+  #rs : [ 1.07747224, 0.04369582 ]
+
+
+Parameterisations:
+  par_uv:
+    class: HERAPDF
+    parameters: [Auv,Buv,Cuv,ZERO,Euv]
+  par_dv:
+    class: HERAPDF
+    parameters: [Adv,Bdv,Cdv]
+  par_ubar:
+    class: HERAPDF
+    parameters: [Adbar,Bdbar,Cubar]
+  par_dbar:
+    class: HERAPDF
+    parameters: [Adbar,Bdbar,Cdbar]
+  par_s:
+    #class: HERAPDF
+    #parameters: [As,Bs,Cs]
+    class: Expression
+    expression: "Adbar*rs*(x^Bdbar*(1-x)^Cstr)"
+  par_g:
+    class: NegativeGluon  # HERAPDF
+    parameters: [Ag,Bg,Cg,Dg,ZERO,Agp,Bgp,Cgp]  # [Ag,Bg,Cg,Dg]#,ZERO,ZERO,ZERO,ZERO]
+
+DefaultDecomposition: proton
+Decompositions:
+  proton:
+    class: UvDvUbarDbarS
+    xuv: par_uv
+    xdv: par_dv
+    xubar: par_ubar
+    xdbar: par_dbar
+    xs: par_s
+    xg: par_g
+
+DefaultEvolution: proton-QCDNUM
+
+Evolutions:
+  proton-QCDNUM:
+    ? !include evolutions/QCDNUM.yaml
+    decomposition: proton #this could be omitted, as the default decomposition is set
+
+# QCD parameters
+NFlavour: 5
+Order: NNLO
+isFFNS: 0
+Q0 : 1.378404875209 # Initial scale =sqrt(1.9)
+alphas : 0.118
+
+? !include constants.yaml
+
+byReaction:
+  # RT DIS scheme settings:
+  RT_DISNC:
+    ? !include reactions/RT_DISNC.yaml
+    varin0 : 0.0
+    varin1 : 1.0
+    varin2 : -0.666666666667
+    varin3 : 1.0        # recommended RT OPT settings
+    additive: 1
+    threads: 0
+
+  # APPLgrid settings:
+  APPLgrid:
+    ? !include reactions/APPLgrid.yaml
+    Order: NLO
+
+# Specify HF scheme used for DIS NC processes:
+hf_scheme_DISNC :
+  defaultValue : 'RT_DISNC'        # global specification
+
+# Specify HF scheme used for DIS CC processes:
+hf_scheme_DISCC :
+  defaultValue : 'BaseDISCC'       # global specification
+
+OutputDirectory: "output"
+
+WriteLHAPDF6:
+  name: "proton"
+  description: "..."
+  authors: "..."
+  reference: "..."
+    # use DefaultEvolution
+  #evolution: proton-QCDNUM
+    # take internal grid
+  preferInternalGrid:
+    # or define grid
+  #Xrange: [1e-4, 1]
+  #Qrange: [1,1000]
+  Xnpoints: 210
+  Qnpoints: 120
+
+MaxErrAllowed: 4

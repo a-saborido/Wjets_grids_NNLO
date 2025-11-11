@@ -1,0 +1,79 @@
+# --- Use emacs in sh mode -*-sh-*- #
+# This is a automatically generated file by fastNLO and holds the values of the warmup run. 
+# The values are valid for the scenario WpJ_ATLAS8TeV
+# and if calculated with the steerfile: WpJ.WpJ_RRa.ptj1.wrm
+# but only if no serious changes have been performed since its creation.
+# 
+# Delete this file, if you want fastNLO to calculate a new one.
+# 
+# This file has been calculated using: 
+#      35000000 contributions.
+#      243270411 entries.
+#   ( Mind: contributions != events. And contributions are not necessarily in phase space region.
+# Please check by eye for reasonability of the values.
+# Number of events per bin are listed below.
+ 
+Warmup.OrderInAlphasOfWarmupRunWas	3
+Warmup.CheckScaleLimitsAgainstBins	true
+Warmup.ScaleDescriptionScale1     	"dscale1_[GeV]"
+Warmup.ScaleDescriptionScale2     	"dscale1_[GeV]"
+Warmup.DifferentialDimension      	1
+Warmup.DimensionLabels {
+  "ptj1_[GeV],"  
+} 
+Warmup.DimensionIsDifferential {
+  "2"  
+} 
+
+Warmup.Values {{
+   ObsBin      x_min      x_max  dscale1_[GeV]_min  dscale1_[GeV]_max  dscale1_[GeV]_min  dscale1_[GeV]_max
+      0      3.4e-04   1.00e+00            50.5          4188.9           50.54         4188.88
+      1      4.0e-04   1.00e+00            56.4          2524.6           56.45         2524.52
+      2      4.8e-04   1.00e+00            71.2          2690.7           71.25         2690.66
+      3      7.4e-04   1.00e+00            88.9          3595.5           88.98         3595.50
+      4      9.2e-04   1.00e+00           106.0          1987.4          106.02         1987.37
+      5      1.0e-03   1.00e+00           124.4          2959.0          124.45         2958.91
+      6      1.4e-03   1.00e+00           144.0          2481.0          144.06         2480.94
+      7      1.6e-03   1.00e+00           162.2          2746.3          162.24         2746.23
+      8      2.2e-03   1.00e+00           181.2          5683.7          181.22         5683.62
+      9      2.6e-03   1.00e+00           200.2          5155.1          200.29         5155.10
+     10      3.2e-03   1.00e+00           220.1          2217.1          220.17         2217.07
+     11      3.8e-03   1.00e+00           243.8          2266.4          243.80         2266.37
+     12      4.4e-03   1.00e+00           258.2          5159.4          258.23         5159.33
+     13      5.0e-03   1.00e+00           277.9          3331.8          277.92         3331.72
+     14      6.0e-03   1.00e+00           297.1          5689.1          297.10         5689.09
+     15      7.8e-03   1.00e+00           345.8          4429.7          345.87         4429.63
+     16      8.0e-03   1.00e+00           394.5          4437.2          394.51         4437.19
+     17      1.0e-02   1.00e+00           443.2          3180.0          443.26         3179.95
+     18      1.4e-02   1.00e+00           492.3          2963.5          492.34         2963.47
+     19      1.6e-02   1.00e+00           541.1          2615.1          541.15         2615.01
+     20      2.0e-02   1.00e+00           589.8          2165.7          589.85         2165.70
+     21      2.8e-02   1.00e+00           687.9          3172.7          687.93         3172.64
+}}
+
+
+Warmup.Binning {{
+    ObsBin  ptj1_[GeV],_Lo  ptj1_[GeV],_Up       BinSize    EventCount
+       0       30.0000       40.0000       10.0000          24628818
+       1       40.0000       60.0000       20.0000          35587779
+       2       60.0000       80.0000       20.0000          20696445
+       3       80.0000       100.000       20.0000          16136874
+       4       100.000       120.000       20.0000          13993389
+       5       120.000       140.000       20.0000          12485463
+       6       140.000       160.000       20.0000          11171544
+       7       160.000       180.000       20.0000           9222342
+       8       180.000       200.000       20.0000           7811991
+       9       200.000       220.000       20.0000           7280952
+      10       220.000       240.000       20.0000           6727659
+      11       240.000       260.000       20.0000           5970504
+      12       260.000       280.000       20.0000           5384313
+      13       280.000       300.000       20.0000           5005293
+      14       300.000       350.000       50.0000          11322906
+      15       350.000       400.000       50.0000           9441717
+      16       400.000       450.000       50.0000           8079774
+      17       450.000       500.000       50.0000           6748695
+      18       500.000       550.000       50.0000           5690826
+      19       550.000       600.000       50.0000           4899354
+      20       600.000       700.000       100.000           7443810
+      21       700.000       1000.00       300.000           7539963
+}}

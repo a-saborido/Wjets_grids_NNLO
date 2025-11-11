@@ -1,0 +1,67 @@
+# --- Use emacs in sh mode -*-sh-*- #
+# This is a automatically generated file by fastNLO and holds the values of the warmup run. 
+# The values are valid for the scenario WmJ_ATLAS8TeV
+# and if calculated with the steerfile: WmJ.WmJ_RRa.ptw.wrm
+# but only if no serious changes have been performed since its creation.
+# 
+# Delete this file, if you want fastNLO to calculate a new one.
+# 
+# This file has been calculated using: 
+#      3.2e+08 contributions.
+#      2401753521 entries.
+#   ( Mind: contributions != events. And contributions are not necessarily in phase space region.
+# Please check by eye for reasonability of the values.
+# Number of events per bin are listed below.
+ 
+Warmup.OrderInAlphasOfWarmupRunWas	3
+Warmup.CheckScaleLimitsAgainstBins	true
+Warmup.ScaleDescriptionScale1     	"dscale1_[GeV]"
+Warmup.ScaleDescriptionScale2     	"dscale1_[GeV]"
+Warmup.DifferentialDimension      	1
+Warmup.DimensionLabels {
+  "ptj1_[GeV],"  
+} 
+Warmup.DimensionIsDifferential {
+  "2"  
+} 
+
+Warmup.Values {{
+   ObsBin      x_min      x_max  dscale1_[GeV]_min  dscale1_[GeV]_max  dscale1_[GeV]_min  dscale1_[GeV]_max
+      0      3.8e-04   1.00e+00            56.0          5409.5           56.08         5409.47
+      1      3.4e-04   1.00e+00            51.2          5306.7           51.20         5306.63
+      2      4.0e-04   1.00e+00            50.2          5360.8           50.29         5360.76
+      3      6.2e-04   1.00e+00            54.0          5617.7           54.01         5617.64
+      4      8.4e-04   1.00e+00            60.1          5635.3           60.11         5635.28
+      5      1.0e-03   1.00e+00            80.2          5533.7           80.21         5533.68
+      6      1.4e-03   1.00e+00           100.2          5409.4          100.22         5409.32
+      7      2.0e-03   1.00e+00           114.0          5485.8          114.05         5485.78
+      8      2.6e-03   1.00e+00           127.1          5481.8          127.10         5481.78
+      9      4.0e-03   1.00e+00           155.3          5475.2          155.36         5475.13
+     10      5.6e-03   1.00e+00           185.6          5321.8          185.69         5321.71
+     11      7.8e-03   1.00e+00           217.7          5304.9          217.70         5304.89
+     12      8.0e-03   1.00e+00           242.4          5326.7          242.49         5326.66
+     13      1.0e-02   1.00e+00           269.5          5315.6          269.51         5315.56
+     14      1.4e-02   1.00e+00           296.3          5276.7          296.37         5276.69
+     15      2.0e-02   1.00e+00           288.8          5210.4          288.80         5210.39
+}}
+
+
+Warmup.Binning {{
+    ObsBin  ptj1_[GeV],_Lo  ptj1_[GeV],_Up       BinSize    EventCount
+       0       0.00000       25.0000       25.0000          52771857
+       1       25.0000       50.0000       25.0000         589643664
+       2       50.0000       75.0000       25.0000         455021892
+       3       75.0000       100.000       25.0000         261931248
+       4       100.000       125.000       25.0000         203085144
+       5       125.000       150.000       25.0000         145652907
+       6       150.000       175.000       25.0000         111824835
+       7       175.000       200.000       25.0000          92810769
+       8       200.000       250.000       50.0000         145175601
+       9       250.000       300.000       50.0000         103313694
+      10       300.000       350.000       50.0000          73895094
+      11       350.000       400.000       50.0000          55170939
+      12       400.000       450.000       50.0000          37775490
+      13       450.000       500.000       50.0000          24027930
+      14       500.000       600.000       100.000          25544706
+      15       600.000       800.000       200.000          24107751
+}}

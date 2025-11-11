@@ -1,0 +1,857 @@
+[nnlo-bridge] NNLOJET INFO: setting up hook functions ...
+
+**************************************************************************************
+*   NNLOJET:     [arXiv:1801.06415],                                                 *
+*   nnlo-bridge: [arXiv:1906.05303,arXiv:2207.13735],                                *
+*   APPLgrid:    [arXiv:0911.2985],                                                  *
+*   fastNLO:     [arXiv:hep-ph/0609285,arXiv:1208.3641].                             *
+**************************************************************************************
+nnlo-bridge version 1.0.3 compiled Mar 24 2025 12:01:37
+
+
+### nnlo::init(). nnlo-bridge: compiled: Mar 24 2025	now: Tue Aug  5 10:25:35 2025
+### nnlo::init(): Initialising grid id = 2 , hist id = 1 , gridname = ptj1, nbins = 31 , lo = 30 , hi = 2000
+### nnlo::init(): init fastNLO.
+### nnlo::init(): Initialising grid id = 2 , hist id = 2 , gridname = yj1, nbins = 43 , lo = -4.4 , hi = 4.2
+### nnlo::init(): init fastNLO.
+### nnlo::init(): Initialising grid id = 2 , hist id = 3 , gridname = ptw, nbins = 33 , lo = 0 , hi = 2000
+### nnlo::init(): init fastNLO.
+### nnlo::init(): Initialising grid id = 2 , hist id = 4 , gridname = ht_jets, nbins = 35 , lo = 30 , hi = 3000
+### nnlo::init(): init fastNLO.
+### nnlo::init(): Initialising grid id = 2 , hist id = 5 , gridname = ht_full, nbins = 31 , lo = 83 , hi = 3000
+### nnlo::init(): init fastNLO.
+ set_smin_run: resetting smin
+ set_smin_run: smin =    0.0000000000000000     
+ setActive_sclc: turning on scale-coefficient recosntruction...
+ registerSweep_run:           2    30000000           1
+ can't find a `SETUP` block... (only needed for DIS runs at the moment)
+ set_mass_param: H   125.20000000000000     
+ set_width_param: H   3.7000000000000002E-003
+ set_mass_param: Z   91.188000000000002     
+ set_width_param: Z   2.4954999999999998     
+ set_mass_param: W   80.369200000000006     
+ set_width_param: W   2.0850000000000000     
+ set_mass_param: t   172.56999999999999     
+ set_width_param: t   1.4199999999999999     
+ set_mass_param: b   4.1829999999999998     
+ set_mass_param: c   1.2729999999999999     
+ set_mass_param: tau   1.7769999999999999     
+ set_smin_run: smin =    1.6900000000000001E-010
+ registered a jet selector: jets_pt
+ registered a jet selector: jets_abs_y
+ registered an `njets` selector
+ we will therefore switch to the inclusive case and
+ this will potentially override the global settings for
+  > qinvert  F
+  > lower      1.0000000000000000      T
+  > upper      0.0000000000000000      F
+ > minnjets:            1
+ set_smin_run: smin =    3600.0000000000000     
+ set_smin_run: smin =    3600.0000000000000     
+ nSubF_scl =            1
+ nSubF_scl =            1
+ nSubF_scl =            1
+ setting a global reweighting function: etw **  3.00                                                                                        
+ T >>>>          92 : RR > regions:  T
+ T >>>>          93 : RR > regions:  T
+ T >>>>          94 : RR > regions:  T
+ T >>>>          95 : RR > regions:  T
+ T >>>>          96 : RR > regions:  T
+ T >>>>          97 : RR > regions:  T
+ T >>>>          98 : RR > regions:  T
+ T >>>>          99 : RR > regions:  T
+ T >>>>         100 : RR > regions:  T
+ T >>>>         101 : RR > regions:  T
+ T >>>>         102 : RR > regions:  T
+ T >>>>         103 : RR > regions:  T
+ T >>>>         104 : RR > regions:  T
+ T >>>>         105 : RR > regions:  T
+ T >>>>         106 : RR > regions:  T
+ T >>>>         107 : RR > regions:  T
+ T >>>>         108 : RR > regions:  T
+ T >>>>         109 : RR > regions:  T
+ T >>>>         110 : RR > regions:  T
+ T >>>>         111 : RR > regions:  T
+ T >>>>         112 : RR > regions:  T
+ T >>>>         113 : RR > regions:  T
+ T >>>>         114 : RR > regions:  T
+ T >>>>         115 : RR > regions:  T
+ T >>>>         116 : RR > regions:  T
+ T >>>>         117 : RR > regions:  T
+ T >>>>         118 : RR > regions:  T
+ T >>>>         119 : RR > regions:  T
+ T >>>>         120 : RR > regions:  T
+ T >>>>         121 : RR > regions:  T
+ T >>>>         122 : RR > regions:  T
+ T >>>>         123 : RR > regions:  T
+ T >>>>         124 : RR > regions:  T
+ T >>>>         125 : RR > regions:  T
+ T >>>>         126 : RR > regions:  T
+ T >>>>         127 : RR > regions:  T
+ T >>>>         128 : RR > regions:  T
+ T >>>>         129 : RR > regions:  T
+ T >>>>         130 : RR > regions:  T
+ T >>>>         131 : RR > regions:  T
+ T >>>>         132 : RR > regions:  T
+ T >>>>         133 : RR > regions:  T
+ T >>>>         134 : RR > regions:  T
+ T >>>>         135 : RR > regions:  T
+ T >>>>         136 : RR > regions:  T
+ T >>>>         137 : RR > regions:  T
+ T >>>>         138 : RR > regions:  T
+ T >>>>         139 : RR > regions:  T
+ T >>>>         140 : RR > regions:  T
+ T >>>>         141 : RR > regions:  T
+ T >>>>         142 : RR > regions:  T
+ T >>>>         143 : RR > regions:  T
+ T >>>>         144 : RR > regions:  T
+ T >>>>         145 : RR > regions:  T
+ T >>>>         146 : RR > regions:  T
+ T >>>>         147 : RR > regions:  T
+ T >>>>         148 : RR > regions:  T
+ T >>>>         149 : RR > regions:  T
+ T >>>>         150 : RR > regions:  T
+ T >>>>         151 : RR > regions:  T
+ T >>>>         152 : RR > regions:  T
+ T >>>>         153 : RR > regions:  T
+ T >>>>         154 : RR > regions:  T
+ T >>>>         155 : RR > regions:  T
+ T >>>>         156 : RR > regions:  T
+ T >>>>         157 : RR > regions:  T
+ T >>>>         158 : RR > regions:  T
+ T >>>>         159 : RR > regions:  T
+ T >>>>         160 : RR > regions:  T
+ T >>>>         161 : RR > regions:  T
+ T >>>>         162 : RR > regions:  T
+ T >>>>         163 : RR > regions:  T
+ T >>>>         164 : RR > regions:  T
+ T >>>>         165 : RR > regions:  T
+ T >>>>         166 : RR > regions:  T
+ T >>>>         167 : RR > regions:  T
+ T >>>>         168 : RR > regions:  T
+ T >>>>         169 : RR > regions:  T
+ T >>>>         170 : RR > regions:  T
+ T >>>>         171 : RR > regions:  T
+ T >>>>         172 : RR > regions:  T
+ T >>>>         173 : RR > regions:  T
+ T >>>>         174 : RR > regions:  T
+ T >>>>         175 : RR > regions:  T
+ T >>>>         176 : RR > regions:  T
+ T >>>>         177 : RR > regions:  T
+ T >>>>         178 : RR > regions:  T
+ T >>>>         179 : RR > regions:  T
+ T >>>>         180 : RR > regions:  T
+ T >>>>         181 : RR > regions:  T
+ T >>>>         182 : RR > regions:  T
+ T >>>>         183 : RR > regions:  T
+ T >>>>         184 : RR > regions:  T
+ T >>>>         185 : RR > regions:  T
+ T >>>>         186 : RR > regions:  T
+ T >>>>         187 : RR > regions:  T
+ T >>>>         188 : RR > regions:  T
+ T >>>>         189 : RR > regions:  T
+ T >>>>         190 : RR > regions:  T
+ T >>>>         191 : RR > regions:  T
+ T >>>>         192 : RR > regions:  T
+ T >>>>         193 : RR > regions:  T
+ T >>>>         194 : RR > regions:  T
+ T >>>>         195 : RR > regions:  T
+ T >>>>         196 : RR > regions:  T
+ T >>>>         197 : RR > regions:  T
+ T >>>>         198 : RR > regions:  T
+ T >>>>         199 : RR > regions:  T
+ T >>>>         200 : RR > regions:  T
+ T >>>>         201 : RR > regions:  T
+ T >>>>         202 : RR > regions:  T
+ T >>>>         203 : RR > regions:  T
+ T >>>>         204 : RR > regions:  T
+    _  ___  ____   ____     ____________
+   / |/ / |/ / /  / __ \__ / / __/_  __/
+  /    /    / /__/ /_/ / // / _/  / /   
+ /_/|_/_/|_/____/\____/\___/___/ /_/    
+                                        
+ ******************************************************************************************************
+ *                                                                                                    *
+ * NNLOJET: A multiprocess parton level event generator                                               *
+ *                                                                                                    *
+ ******************************************************************************************************
+ *                                                                                                    *
+ * Active bosons:                                                                                     *
+ * W- boson                                                                                           *
+ *                                                                                                    *
+ * list of active processes:                                                                          *
+ *                                                                                                    *
+ *   id  partons                  Matrix Element                Subtraction                           *
+ *                                                                                                    *
+ *   92  d g to g g u lm nub      sB3g0W(1,2,3,4,5,6,7)         qgsB3g0WS(1,2,3,4,5,6,7)              *
+ *   93  d ub to g g g lm nub     sB3g0W(1,3,4,5,2,6,7)         qqbsB3g0WS(1,3,4,5,2,6,7)             *
+ *   94  g d to g g u lm nub      sB3g0W(2,1,3,4,5,6,7)         gqsB3g0WS(2,1,3,4,5,6,7)              *
+ *   95  ub d to g g g lm nub     sB3g0W(2,3,4,5,1,6,7)         qbqsB3g0WS(2,3,4,5,1,6,7)             *
+ *   96  g g to db g u lm nub     sB3g0W(3,1,2,4,5,6,7)         ggsB3g0WS(3,1,2,4,5,6,7)              *
+ *   97  g ub to db g g lm nub    sB3g0W(3,1,4,5,2,6,7)         gqbsB3g0WS(3,1,4,5,2,6,7)             *
+ *   98  ub g to db g g lm nub    sB3g0W(3,2,4,5,1,6,7)         qbgsB3g0WS(3,2,4,5,1,6,7)             *
+ *   99  d g to g g u lm nub      sBt3g0W(1,2,3,4,5,6,7)        qgsBt3g0WS(1,2,3,4,5,6,7)             *
+ *  100  d ub to g g g lm nub     sBt3g0W(1,3,4,5,2,6,7)        qqbsBt3g0WS(1,3,4,5,2,6,7)            *
+ *  101  g d to g g u lm nub      sBt3g0W(2,1,3,4,5,6,7)        gqsBt3g0WS(2,1,3,4,5,6,7)             *
+ *  102  ub d to g g g lm nub     sBt3g0W(2,3,4,5,1,6,7)        qbqsBt3g0WS(2,3,4,5,1,6,7)            *
+ *  103  g g to db g u lm nub     sBt3g0W(3,1,2,4,5,6,7)        ggsBt3g0WS(3,1,2,4,5,6,7)             *
+ *  104  g ub to db g g lm nub    sBt3g0W(3,1,4,5,2,6,7)        gqbsBt3g0WS(3,1,4,5,2,6,7)            *
+ *  105  ub g to db g g lm nub    sBt3g0W(3,2,4,5,1,6,7)        qbgsBt3g0WS(3,2,4,5,1,6,7)            *
+ *  106  d gt to gt gt u lm nub   sBtt3g0W(1,2,3,4,5,6,7)       qgtsBtt3g0WS(1,2,3,4,5,6,7)           *
+ *  107  d ub to gt gt gt lm nub  sBtt3g0W(1,3,4,5,2,6,7)       qqbsBtt3g0WS(1,3,4,5,2,6,7)           *
+ *  108  gt d to gt gt u lm nub   sBtt3g0W(2,1,3,4,5,6,7)       gtqsBtt3g0WS(2,1,3,4,5,6,7)           *
+ *  109  ub d to gt gt gt lm nub  sBtt3g0W(2,3,4,5,1,6,7)       qbqsBtt3g0WS(2,3,4,5,1,6,7)           *
+ *  110  gt gt to db gt u lm nub  sBtt3g0W(3,1,2,4,5,6,7)       gtgtsBtt3g0WS(3,1,2,4,5,6,7)          *
+ *  111  gt ub to db gt gt lm nub sBtt3g0W(3,1,4,5,2,6,7)       gtqbsBtt3g0WS(3,1,4,5,2,6,7)          *
+ *  112  ub gt to db gt gt lm nub sBtt3g0W(3,2,4,5,1,6,7)       qbgtsBtt3g0WS(3,2,4,5,1,6,7)          *
+ *  113  d g to Q Qb u lm nub     sC1g0W(1,2,3,4,5,6,7)         qgsC1g0WS(1,2,3,4,5,6,7)              *
+ *  114  d Qb to g Qb u lm nub    sC1g0W(1,3,2,4,5,6,7)         qqpbsC1g0WS(1,3,2,4,5,6,7)            *
+ *  115  d Q to g Q u lm nub      sC1g0W(1,3,4,2,5,6,7)         qqpsC1g0WS(1,3,4,2,5,6,7)             *
+ *  116  d ub to g Q Qb lm nub    sC1g0W(1,3,4,5,2,6,7)         qqbsC1g0WS(1,3,4,5,2,6,7)             *
+ *  117  g d to Q Qb u lm nub     sC1g0W(2,1,3,4,5,6,7)         gqsC1g0WS(2,1,3,4,5,6,7)              *
+ *  118  Qb d to g Qb u lm nub    sC1g0W(2,3,1,4,5,6,7)         qpbqsC1g0WS(2,3,1,4,5,6,7)            *
+ *  119  Q d to g Q u lm nub      sC1g0W(2,3,4,1,5,6,7)         qpqsC1g0WS(2,3,4,1,5,6,7)             *
+ *  120  ub d to g Q Qb lm nub    sC1g0W(2,3,4,5,1,6,7)         qbqsC1g0WS(2,3,4,5,1,6,7)             *
+ *  121  g Qb to db Qb u lm nub   sC1g0W(3,1,2,4,5,6,7)         gqpbsC1g0WS(3,1,2,4,5,6,7)            *
+ *  122  g Q to db Q u lm nub     sC1g0W(3,1,4,2,5,6,7)         gqpsC1g0WS(3,1,4,2,5,6,7)             *
+ *  123  g ub to db Q Qb lm nub   sC1g0W(3,1,4,5,2,6,7)         gqbsC1g0WS(3,1,4,5,2,6,7)             *
+ *  124  Qb g to db Qb u lm nub   sC1g0W(3,2,1,4,5,6,7)         qpbgsC1g0WS(3,2,1,4,5,6,7)            *
+ *  125  Q g to db Q u lm nub     sC1g0W(3,2,4,1,5,6,7)         qpgsC1g0WS(3,2,4,1,5,6,7)             *
+ *  126  ub g to db Q Qb lm nub   sC1g0W(3,2,4,5,1,6,7)         qbgsC1g0WS(3,2,4,5,1,6,7)             *
+ *  127  Qb Q to db g u lm nub    sC1g0W(3,4,1,2,5,6,7)         qpbqpsC1g0WS(3,4,1,2,5,6,7)           *
+ *  128  Qb ub to db g Qb lm nub  sC1g0W(3,4,1,5,2,6,7)         qpbqbsC1g0WS(3,4,1,5,2,6,7)           *
+ *  129  Q Qb to db g u lm nub    sC1g0W(3,4,2,1,5,6,7)         qpqpbsC1g0WS(3,4,2,1,5,6,7)           *
+ *  130  ub Qb to db g Qb lm nub  sC1g0W(3,4,2,5,1,6,7)         qbqpbsC1g0WS(3,4,2,5,1,6,7)           *
+ *  131  Q ub to db g Q lm nub    sC1g0W(3,4,5,1,2,6,7)         qpqbsC1g0WS(3,4,5,1,2,6,7)            *
+ *  132  ub Q to db g Q lm nub    sC1g0W(3,4,5,2,1,6,7)         qbqpsC1g0WS(3,4,5,2,1,6,7)            *
+ *  133  d g to Q Qb u lm nub     sCt1g0W(1,2,3,4,5,6,7)        qgsCt1g0WS(1,2,3,4,5,6,7)             *
+ *  134  d Qb to g Qb u lm nub    sCt1g0W(1,3,2,4,5,6,7)        qqpbsCt1g0WS(1,3,2,4,5,6,7)           *
+ *  135  d Q to g Q u lm nub      sCt1g0W(1,3,4,2,5,6,7)        qqpsCt1g0WS(1,3,4,2,5,6,7)            *
+ *  136  d ub to g Q Qb lm nub    sCt1g0W(1,3,4,5,2,6,7)        qqbsCt1g0WS(1,3,4,5,2,6,7)            *
+ *  137  g d to Q Qb u lm nub     sCt1g0W(2,1,3,4,5,6,7)        gqsCt1g0WS(2,1,3,4,5,6,7)             *
+ *  138  Qb d to g Qb u lm nub    sCt1g0W(2,3,1,4,5,6,7)        qpbqsCt1g0WS(2,3,1,4,5,6,7)           *
+ *  139  Q d to g Q u lm nub      sCt1g0W(2,3,4,1,5,6,7)        qpqsCt1g0WS(2,3,4,1,5,6,7)            *
+ *  140  ub d to g Q Qb lm nub    sCt1g0W(2,3,4,5,1,6,7)        qbqsCt1g0WS(2,3,4,5,1,6,7)            *
+ *  141  g Qb to db Qb u lm nub   sCt1g0W(3,1,2,4,5,6,7)        gqpbsCt1g0WS(3,1,2,4,5,6,7)           *
+ *  142  g Q to db Q u lm nub     sCt1g0W(3,1,4,2,5,6,7)        gqpsCt1g0WS(3,1,4,2,5,6,7)            *
+ *  143  g ub to db Q Qb lm nub   sCt1g0W(3,1,4,5,2,6,7)        gqbsCt1g0WS(3,1,4,5,2,6,7)            *
+ *  144  Qb g to db Qb u lm nub   sCt1g0W(3,2,1,4,5,6,7)        qpbgsCt1g0WS(3,2,1,4,5,6,7)           *
+ *  145  Q g to db Q u lm nub     sCt1g0W(3,2,4,1,5,6,7)        qpgsCt1g0WS(3,2,4,1,5,6,7)            *
+ *  146  ub g to db Q Qb lm nub   sCt1g0W(3,2,4,5,1,6,7)        qbgsCt1g0WS(3,2,4,5,1,6,7)            *
+ *  147  Qb Q to db g u lm nub    sCt1g0W(3,4,1,2,5,6,7)        qpbqpsCt1g0WS(3,4,1,2,5,6,7)          *
+ *  148  Qb ub to db g Qb lm nub  sCt1g0W(3,4,1,5,2,6,7)        qpbqbsCt1g0WS(3,4,1,5,2,6,7)          *
+ *  149  Q Qb to db g u lm nub    sCt1g0W(3,4,2,1,5,6,7)        qpqpbsCt1g0WS(3,4,2,1,5,6,7)          *
+ *  150  ub Qb to db g Qb lm nub  sCt1g0W(3,4,2,5,1,6,7)        qbqpbsCt1g0WS(3,4,2,5,1,6,7)          *
+ *  151  Q ub to db g Q lm nub    sCt1g0W(3,4,5,1,2,6,7)        qpqbsCt1g0WS(3,4,5,1,2,6,7)           *
+ *  152  ub Q to db g Q lm nub    sCt1g0W(3,4,5,2,1,6,7)        qbqpsCt1g0WS(3,4,5,2,1,6,7)           *
+ *  153  d g to d db u lm nub     D1g0Wmac(1,2,3,4,5,6,7)       qpgD1g0WmacS(1,2,3,4,5,6,7)           *
+ *  154  d db to g db u lm nub    D1g0Wmac(1,3,2,4,5,6,7)       qpqpbD1g0WmacS(1,3,2,4,5,6,7)         *
+ *  155  d d to g d u lm nub      D1g0Wmac(1,3,4,2,5,6,7)       qpqpD1g0WmacS(1,3,4,2,5,6,7)          *
+ *  156  d ub to g d db lm nub    D1g0Wmac(1,3,4,5,2,6,7)       qpqbD1g0WmacS(1,3,4,5,2,6,7)          *
+ *  157  g d to d db u lm nub     D1g0Wmac(2,1,3,4,5,6,7)       gqpD1g0WmacS(2,1,3,4,5,6,7)           *
+ *  158  db d to g db u lm nub    D1g0Wmac(2,3,1,4,5,6,7)       qpbqpD1g0WmacS(2,3,1,4,5,6,7)         *
+ *  159  ub d to g d db lm nub    D1g0Wmac(2,3,4,5,1,6,7)       qbqpD1g0WmacS(2,3,4,5,1,6,7)          *
+ *  160  g db to db db u lm nub   D1g0Wmac(3,1,2,4,5,6,7)       gqpbD1g0WmacS(3,1,2,4,5,6,7)          *
+ *  161  g ub to db d db lm nub   D1g0Wmac(3,1,4,5,2,6,7)       gqbD1g0WmacS(3,1,4,5,2,6,7)           *
+ *  162  db g to db db u lm nub   D1g0Wmac(3,2,1,4,5,6,7)       qpbgD1g0WmacS(3,2,1,4,5,6,7)          *
+ *  163  ub g to db d db lm nub   D1g0Wmac(3,2,4,5,1,6,7)       qbgD1g0WmacS(3,2,4,5,1,6,7)           *
+ *  164  db ub to db g db lm nub  D1g0Wmac(3,4,1,5,2,6,7)       qpbqbD1g0WmacS(3,4,1,5,2,6,7)         *
+ *  165  ub db to db g db lm nub  D1g0Wmac(3,4,2,5,1,6,7)       qbqpbD1g0WmacS(3,4,2,5,1,6,7)         *
+ *  166  d g to u ub u lm nub     D1g0Wmbc(1,2,3,4,5,6,7)       qpgD1g0WmbcS(1,2,3,4,5,6,7)           *
+ *  167  d ub to g ub u lm nub    D1g0Wmbc(1,3,2,4,5,6,7)       qpqbD1g0WmbcS(1,3,2,4,5,6,7)          *
+ *  168  d u to g u u lm nub      D1g0Wmbc(1,3,4,2,5,6,7)       qpqD1g0WmbcS(1,3,4,2,5,6,7)           *
+ *  169  g d to u ub u lm nub     D1g0Wmbc(2,1,3,4,5,6,7)       gqpD1g0WmbcS(2,1,3,4,5,6,7)           *
+ *  170  ub d to g ub u lm nub    D1g0Wmbc(2,3,1,4,5,6,7)       qbqpD1g0WmbcS(2,3,1,4,5,6,7)          *
+ *  171  u d to g u u lm nub      D1g0Wmbc(2,3,4,1,5,6,7)       qqpD1g0WmbcS(2,3,4,1,5,6,7)           *
+ *  172  g ub to db ub u lm nub   D1g0Wmbc(3,1,2,4,5,6,7)       gqbD1g0WmbcS(3,1,2,4,5,6,7)           *
+ *  173  g u to db u u lm nub     D1g0Wmbc(3,1,4,2,5,6,7)       gqD1g0WmbcS(3,1,4,2,5,6,7)            *
+ *  174  ub g to db ub u lm nub   D1g0Wmbc(3,2,1,4,5,6,7)       qbgD1g0WmbcS(3,2,1,4,5,6,7)           *
+ *  175  u g to db u u lm nub     D1g0Wmbc(3,2,4,1,5,6,7)       qgD1g0WmbcS(3,2,4,1,5,6,7)            *
+ *  176  ub u to db g u lm nub    D1g0Wmbc(3,4,1,2,5,6,7)       qbqD1g0WmbcS(3,4,1,2,5,6,7)           *
+ *  177  ub ub to db g ub lm nub  D1g0Wmbc(3,4,1,5,2,6,7)       qbqbD1g0WmbcS(3,4,1,5,2,6,7)          *
+ *  178  u ub to db g u lm nub    D1g0Wmbc(3,4,2,1,5,6,7)       qqbD1g0WmbcS(3,4,2,1,5,6,7)           *
+ *  179  d g to d db u lm nub     Dt1g0Wma(1,2,3,4,5,6,7)       qpgDt1g0WmaS(1,2,3,4,5,6,7)           *
+ *  180  d db to g db u lm nub    Dt1g0Wma(1,3,2,4,5,6,7)       qpqpbDt1g0WmaS(1,3,2,4,5,6,7)         *
+ *  181  d d to g d u lm nub      Dt1g0Wma(1,3,4,2,5,6,7)       qpqpDt1g0WmaS(1,3,4,2,5,6,7)          *
+ *  182  d ub to g d db lm nub    Dt1g0Wma(1,3,4,5,2,6,7)       qpqbDt1g0WmaS(1,3,4,5,2,6,7)          *
+ *  183  g d to d db u lm nub     Dt1g0Wma(2,1,3,4,5,6,7)       gqpDt1g0WmaS(2,1,3,4,5,6,7)           *
+ *  184  db d to g db u lm nub    Dt1g0Wma(2,3,1,4,5,6,7)       qpbqpDt1g0WmaS(2,3,1,4,5,6,7)         *
+ *  185  ub d to g d db lm nub    Dt1g0Wma(2,3,4,5,1,6,7)       qbqpDt1g0WmaS(2,3,4,5,1,6,7)          *
+ *  186  g db to db db u lm nub   Dt1g0Wma(3,1,2,4,5,6,7)       gqpbDt1g0WmaS(3,1,2,4,5,6,7)          *
+ *  187  g ub to db d db lm nub   Dt1g0Wma(3,1,4,5,2,6,7)       gqbDt1g0WmaS(3,1,4,5,2,6,7)           *
+ *  188  db g to db db u lm nub   Dt1g0Wma(3,2,1,4,5,6,7)       qpbgDt1g0WmaS(3,2,1,4,5,6,7)          *
+ *  189  ub g to db d db lm nub   Dt1g0Wma(3,2,4,5,1,6,7)       qbgDt1g0WmaS(3,2,4,5,1,6,7)           *
+ *  190  db ub to db g db lm nub  Dt1g0Wma(3,4,1,5,2,6,7)       qpbqbDt1g0WmaS(3,4,1,5,2,6,7)         *
+ *  191  ub db to db g db lm nub  Dt1g0Wma(3,4,2,5,1,6,7)       qbqpbDt1g0WmaS(3,4,2,5,1,6,7)         *
+ *  192  d g to u ub u lm nub     Dt1g0Wmb(1,2,3,4,5,6,7)       qpgDt1g0WmbS(1,2,3,4,5,6,7)           *
+ *  193  d ub to g ub u lm nub    Dt1g0Wmb(1,3,2,4,5,6,7)       qpqbDt1g0WmbS(1,3,2,4,5,6,7)          *
+ *  194  d u to g u u lm nub      Dt1g0Wmb(1,3,4,2,5,6,7)       qpqDt1g0WmbS(1,3,4,2,5,6,7)           *
+ *  195  g d to u ub u lm nub     Dt1g0Wmb(2,1,3,4,5,6,7)       gqpDt1g0WmbS(2,1,3,4,5,6,7)           *
+ *  196  ub d to g ub u lm nub    Dt1g0Wmb(2,3,1,4,5,6,7)       qbqpDt1g0WmbS(2,3,1,4,5,6,7)          *
+ *  197  u d to g u u lm nub      Dt1g0Wmb(2,3,4,1,5,6,7)       qqpDt1g0WmbS(2,3,4,1,5,6,7)           *
+ *  198  g ub to db ub u lm nub   Dt1g0Wmb(3,1,2,4,5,6,7)       gqbDt1g0WmbS(3,1,2,4,5,6,7)           *
+ *  199  g u to db u u lm nub     Dt1g0Wmb(3,1,4,2,5,6,7)       gqDt1g0WmbS(3,1,4,2,5,6,7)            *
+ *  200  ub g to db ub u lm nub   Dt1g0Wmb(3,2,1,4,5,6,7)       qbgDt1g0WmbS(3,2,1,4,5,6,7)           *
+ *  201  u g to db u u lm nub     Dt1g0Wmb(3,2,4,1,5,6,7)       qgDt1g0WmbS(3,2,4,1,5,6,7)            *
+ *  202  ub u to db g u lm nub    Dt1g0Wmb(3,4,1,2,5,6,7)       qbqDt1g0WmbS(3,4,1,2,5,6,7)           *
+ *  203  ub ub to db g ub lm nub  Dt1g0Wmb(3,4,1,5,2,6,7)       qbqbDt1g0WmbS(3,4,1,5,2,6,7)          *
+ *  204  u ub to db g u lm nub    Dt1g0Wmb(3,4,2,1,5,6,7)       qqbDt1g0WmbS(3,4,2,1,5,6,7)           *
+ *                                                                                                    *
+ ******************************************************************************************************
+ *                                                                                                    *
+ * input technical parameters :                                                                       *
+ *                                                                                                    *
+ *           y0   =                                                 1.0000E-07                        *
+ * including angular rotations                                                                        *
+ * no phase space caching                                                                             *
+ *                                                                                                    *
+ * input physics parameters :                                                                         *
+ *                                                                                                    *
+ *  Z boson mass                                                      0.91188000000000002387E+02                        *
+ *  Z boson width                                                     0.24954999999999998295E+01                        *
+ *  W boson mass                                                      0.80369200000000006412E+02                        *
+ *  W boson width                                                     0.20849999999999999645E+01                        *
+ *  H boson mass                                                      0.12520000000000000284E+03                        *
+ *  H boson width                                                     0.37000000000000001638E-02                        *
+ * sin^2(thw)                                                         0.22320949284344326902E+00                        *
+ * 1/alpha                                                            0.13210015990941872133E+03                        *
+ *                                                                                                    *
+ *                                                                                                    *
+ * input kinematical parameters :                                                                     *
+ *                                                                                                    *
+ * Process: WMJ                                                                                       *
+ *     sqrt(s) = ******                                                                               *
+ *       > beam1 =         2212 [6500.0 GeV]                                                          *
+ *       > beam2 =         2212 [6500.0 GeV]                                                          *
+ *                                                                                                    *
+ *     Run: = WmJ_RRa                                                                                 *
+ *     PDF1 = NNPDF31_nnlo_as_0118 [mem = 0]                                                          *
+ *     MatchObs = OFF                                                                                 *
+ *                                                                                                    *
+ * Sweeps                                                                                             *
+ resetCurrentSweep_run
+ loadNextSweep_run:            2
+ *       production = 30000000[1]                                                                     *
+ *                                                                                                    *
+ *                           Warnings                                                                 *
+ *                                                                                                    *
+ * Scales:                                                                                            *
+ *                                                                                                    *
+ *   ID                           muR                                     muF                         *
+ *   1                  1.000E+00 x dscale1                     1.000E+00 x dscale1                   *
+ *   2                  5.000E-01 x dscale1                     5.000E-01 x dscale1                   *
+ *   3                  2.000E+00 x dscale1                     2.000E+00 x dscale1                   *
+ *                                                                                                    *
+ * Selectors:                                                                                         *
+ *                                                                                                    *
+ * T0 accept:        1.00 <= njets                                                                    *
+ * T0 accept:       60.00 <= mt                                                                       *
+ * T0 accept:       25.00 <= etmiss                                                                   *
+ * T0 accept:                abs_ylm         <=         2.50                                          *
+ * T0 accept:       28.00 <= ptlm                                                                     *
+ *                                                                                                    *
+ *   > jet settings <                                                                                 *
+ *                                                                                                    *
+ *   njets:            1 (inclusive)                                                                  *
+ *   jet algorithm:   anti-kt    R = 0.40                                                             *
+ *   accept:       30.00 <= jets_pt                                                                   *
+ *   accept:                jets_abs_y      <=         4.40                                           *
+ *                                                                                                    *
+ *   > photon isolation <                                                                             *
+ *                                                                                                    *
+ *   no photon isolation                                                                              *
+ *                                                                                                    *
+ *   > photon cuts <                                                                                  *
+ *                                                                                                    *
+ *   no photon cuts                                                                                   *
+ *                                                                                                    *
+ *   > lepton isolation <                                                                             *
+ *                                                                                                    *
+ *   no lepton isolation                                                                              *
+ *                                                                                                    *
+ * Histograms:                                                                                        *
+ *                                                                                                    *
+ * 0 ht_full_var             (ht_full         in   31 bins)     [      83.000,     3000.000]          *                              
+ * igrid =            2 : ht_full.fast                                                                                                                    
+ *                                                                                                    *
+ * 0 ht_jets_var             (ht_jets         in   35 bins)     [      30.000,     3000.000]          *                              
+ * igrid =            2 : ht_jets.fast                                                                                                                    
+ *                                                                                                    *
+ * 0 ptw_var                 (ptw             in   33 bins)     [       0.000,     2000.000]          *                              
+ * igrid =            2 : ptw.fast                                                                                                                        
+ *                                                                                                    *
+ * 0 yj1_var                 (yj1             in   43 bins)     [      -4.400,        4.200]          *                              
+ * igrid =            2 : yj1.fast                                                                                                                        
+ *                                                                                                    *
+ * 0 ptj1_var                (ptj1            in   31 bins)     [      30.000,     2000.000]          *                              
+ * igrid =            2 : ptj1.fast                                                                                                                       
+ *                                                                                                    *
+[fnloUtils::InitFastNLO] fastNLO initialisation for NNLOJET histo/fastNLO grid with id = 5 and process: WmJ
+[fnloUtils::GetConfigFiles()]  The process name is reported to be: WmJ
+[fnloUtils::GetConfigDir()] WARNING! NNLOJET_CONFIG_PATH not set. Trying further.
+[fnloUtils::GetConfigDir()] Using config directory: /ptmp/mpp/asaborido/grid_installation/NNLOJET_rev7902/driver/process
+[fnloUtils::GetConfigFiles()]  Found order 2. Using config files: 
+[fnloUtils::GetConfigFiles()]  /ptmp/mpp/asaborido/grid_installation/NNLOJET_rev7902/driver/process/WmJ/WmJ-RR.config
+[fnloUtils::GetConfigFiles()]  /ptmp/mpp/asaborido/grid_installation/NNLOJET_rev7902/driver/process/WmJ/WmJ-RV.config
+[fnloUtils::GetConfigFiles()]  /ptmp/mpp/asaborido/grid_installation/NNLOJET_rev7902/driver/process/WmJ/WmJ-VV.config
+[fnloSuprocesses::ReadConfigFile()] found 113 subprocess definitions.
+[fnloSuprocesses::SetUniqueValues()] found 35 unique subprocess definitions.
+[fnloSuprocesses::ReadConfigFile()] found 204 subprocess definitions.
+[fnloSuprocesses::SetUniqueValues()] found 35 unique subprocess definitions.
+[fnloSuprocesses::ReadConfigFile()] found 138 subprocess definitions.
+[fnloSuprocesses::SetUniqueValues()] found 35 unique subprocess definitions.
+[fnloUtils::InitFastNLO] Gridname: ht_full, process name: WmJ, job name: WmJ_RRa
+[fnloUtils::InitFastNLO] No. of scale variations: 3, no. of hadrons (PDFs): 2
+[fnloUtils::InitFastNLO] Warmup is run for subprocess: WmJ_RRa
+[fnloUtils::InitFastNLO] Warmup filename: WmJ.WmJ_RRa.ht_full.wrm
+[fnloUtils::InitFastNLO] Global steering filename: fastnlo.str
+[fnloUtils::InitFastNLO] Steering filename: WmJ.ht_full.str
+[fnloUtils::InitFastNLO] Table basename: WmJ.WmJ_RRa.RRa.ht_full.s1
+[fnloUtils::InitFastNLO] These grids are produced with NNLOJET version: []
+[fnloUtils::InitFastNLO] Please cite for the NNLOJET program:
+[fnloUtils::InitFastNLO] T. Gehrmann et al., Proceedings of Science RADCOR2017 (2018) 074 [arXiv:1801.06415].
+[fnloUtils::InitFastNLO] The PDF set and member that were used are: 
+[fnloUtils::InitFastNLO] PDFSET: NNPDF31_nnlo_as_0118, PDFMEM: 0
+ ##################################################################################
+ #
+ # [0;31mfast[0;34mNLO[0m_toolkit
+ # Version 2.6.0_3067
+ #
+ # C++ program and toolkit to read and create fastNLO v2 tables and
+ # derive QCD cross sections using PDFs, e.g. from LHAPDF
+ #
+ #---------------------------------------------------------------------------------
+ #
+ # Copyright © 2005-2025 [0;31mfast[0;34mNLO[0m Collaboration
+ # D. Britzger, T. Kluge, K. Rabbertz, F. Stober, G. Sieber, M. Wobisch
+ #
+ # This program is free software: you can redistribute it and/or modify
+ # it under the terms of the GNU General Public License as published by
+ # the Free Software Foundation, either version 3 of the License, or
+ # (at your option) any later version.
+ #
+ # This program is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ # GNU General Public License for more details.
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program. If not, see <http://www.gnu.org/licenses/>.
+ #
+ #---------------------------------------------------------------------------------
+ #
+ # The projects web page can be found at:
+ #   http://projects.hepforge.org/fastnlo
+ #
+ # If you use this code, please cite:
+ #   T. Kluge, K. Rabbertz, M. Wobisch, Proc. DIS 2006, 483 (2006), hep-ph/0609285.
+ #   D. Britzger, K. Rabbertz, F. Stober, M. Wobisch, Proc. DIS 2012, 217 (2012), arXiv:1208.3641.
+ #
+ ##################################################################################
+ # INFO.    [fastNLOCreate::fastNLOCreate] Warmup file does not exist, so presumably this is a warmup run: WmJ.WmJ_RRa.ht_full.wrm
+ # INFO.    [fastNLOCreate::fastNLOCreate] Read steerfile: fastnlo.str	 namespace: WmJ.WmJ_RRa.ht_full.wrm
+ # INFO.    [fastNLOCreate::SetCacheSize] Using cache for fill weights (for flex tables). CacheType = 2	CacheMax = 30	CacheCompare = 10
+ # WARNING! [fastNLOCreate::GetWarmupValues] This will be a warmup run.
+ # INFO.    [fastNLOCreate::Instantiate] zlib compression requested. Adding .gz to filename.
+ # INFO.    [fastNLOCreate::SetBinningND] Set binning successfully for 31 bins in 1 dimensions.
+ # INFO.    [fastNLOCreate::SetBinningND] VIV: Set binning via vector with bin edges.
+ # INFO.    [fastNLOCreate::ReadBinningFromScenarioConsts] Read in successfully 1-dimensional bin grid with 31 bins.
+[fnloSuprocesses::AllSubprocessToSubprocZero()] Caution! deleting subprocess mapping.
+[fnloUtils::InitFastNLO] The flexible-scale table format has been chosen.
+[fnloUtils::InitFastNLO] Power of alpha_s(): 3, order of calculation: 2
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] Base order ord = 3
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] NLO scale dependence: Dependent on MuR and MuF. IScaleDep = 1
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] Using 35 subprocesses and PDF flags: 3, 0, 35.
+[fnloUtils::InitFastNLO] fastNLO initialisation for NNLOJET histo/fastNLO grid with id = 4 and process: WmJ
+[fnloUtils::InitFastNLO] Gridname: ht_jets, process name: WmJ, job name: WmJ_RRa
+[fnloUtils::InitFastNLO] Warmup filename: WmJ.WmJ_RRa.ht_jets.wrm
+[fnloUtils::InitFastNLO] Steering filename: WmJ.ht_jets.str
+[fnloUtils::InitFastNLO] Table basename: WmJ.WmJ_RRa.RRa.ht_jets.s1
+ # INFO.    [fastNLOCreate::fastNLOCreate] Warmup file does not exist, so presumably this is a warmup run: WmJ.WmJ_RRa.ht_jets.wrm
+ # INFO.    [fastNLOCreate::fastNLOCreate] Read steerfile: fastnlo.str	 namespace: WmJ.WmJ_RRa.ht_jets.wrm
+ # INFO.    [fastNLOCreate::SetCacheSize] Using cache for fill weights (for flex tables). CacheType = 2	CacheMax = 30	CacheCompare = 10
+ # WARNING! [fastNLOCreate::GetWarmupValues] This will be a warmup run.
+ # INFO.    [fastNLOCreate::Instantiate] zlib compression requested. Adding .gz to filename.
+ # INFO.    [fastNLOCreate::SetBinningND] Set binning successfully for 35 bins in 1 dimensions.
+ # INFO.    [fastNLOCreate::SetBinningND] VIV: Set binning via vector with bin edges.
+ # INFO.    [fastNLOCreate::ReadBinningFromScenarioConsts] Read in successfully 1-dimensional bin grid with 35 bins.
+[fnloSuprocesses::AllSubprocessToSubprocZero()] Caution! deleting subprocess mapping.
+[fnloUtils::InitFastNLO] The flexible-scale table format has been chosen.
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] Base order ord = 3
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] NLO scale dependence: Dependent on MuR and MuF. IScaleDep = 1
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] Using 35 subprocesses and PDF flags: 3, 0, 35.
+[fnloUtils::InitFastNLO] fastNLO initialisation for NNLOJET histo/fastNLO grid with id = 3 and process: WmJ
+[fnloUtils::InitFastNLO] Gridname: ptw, process name: WmJ, job name: WmJ_RRa
+[fnloUtils::InitFastNLO] Warmup filename: WmJ.WmJ_RRa.ptw.wrm
+[fnloUtils::InitFastNLO] Steering filename: WmJ.ptw.str
+[fnloUtils::InitFastNLO] Table basename: WmJ.WmJ_RRa.RRa.ptw.s1
+ # INFO.    [fastNLOCreate::fastNLOCreate] Warmup file does not exist, so presumably this is a warmup run: WmJ.WmJ_RRa.ptw.wrm
+ # INFO.    [fastNLOCreate::fastNLOCreate] Read steerfile: fastnlo.str	 namespace: WmJ.WmJ_RRa.ptw.wrm
+ # INFO.    [fastNLOCreate::SetCacheSize] Using cache for fill weights (for flex tables). CacheType = 2	CacheMax = 30	CacheCompare = 10
+ # WARNING! [fastNLOCreate::GetWarmupValues] This will be a warmup run.
+ # INFO.    [fastNLOCreate::Instantiate] zlib compression requested. Adding .gz to filename.
+ # INFO.    [fastNLOCreate::SetBinningND] Set binning successfully for 33 bins in 1 dimensions.
+ # INFO.    [fastNLOCreate::SetBinningND] VIV: Set binning via vector with bin edges.
+ # INFO.    [fastNLOCreate::ReadBinningFromScenarioConsts] Read in successfully 1-dimensional bin grid with 33 bins.
+[fnloSuprocesses::AllSubprocessToSubprocZero()] Caution! deleting subprocess mapping.
+[fnloUtils::InitFastNLO] The flexible-scale table format has been chosen.
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] Base order ord = 3
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] NLO scale dependence: Dependent on MuR and MuF. IScaleDep = 1
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] Using 35 subprocesses and PDF flags: 3, 0, 35.
+[fnloUtils::InitFastNLO] fastNLO initialisation for NNLOJET histo/fastNLO grid with id = 2 and process: WmJ
+[fnloUtils::InitFastNLO] Gridname: yj1, process name: WmJ, job name: WmJ_RRa
+[fnloUtils::InitFastNLO] Warmup filename: WmJ.WmJ_RRa.yj1.wrm
+[fnloUtils::InitFastNLO] Steering filename: WmJ.yj1.str
+[fnloUtils::InitFastNLO] Table basename: WmJ.WmJ_RRa.RRa.yj1.s1
+ # INFO.    [fastNLOCreate::fastNLOCreate] Warmup file does not exist, so presumably this is a warmup run: WmJ.WmJ_RRa.yj1.wrm
+ # INFO.    [fastNLOCreate::fastNLOCreate] Read steerfile: fastnlo.str	 namespace: WmJ.WmJ_RRa.yj1.wrm
+ # INFO.    [fastNLOCreate::SetCacheSize] Using cache for fill weights (for flex tables). CacheType = 2	CacheMax = 30	CacheCompare = 10
+ # WARNING! [fastNLOCreate::GetWarmupValues] This will be a warmup run.
+ # INFO.    [fastNLOCreate::Instantiate] zlib compression requested. Adding .gz to filename.
+ # INFO.    [fastNLOCreate::SetBinningND] Set binning successfully for 43 bins in 1 dimensions.
+ # INFO.    [fastNLOCreate::SetBinningND] VIV: Set binning via vector with bin edges.
+ # INFO.    [fastNLOCreate::ReadBinningFromScenarioConsts] Read in successfully 1-dimensional bin grid with 43 bins.
+[fnloSuprocesses::AllSubprocessToSubprocZero()] Caution! deleting subprocess mapping.
+[fnloUtils::InitFastNLO] The flexible-scale table format has been chosen.
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] Base order ord = 3
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] NLO scale dependence: Dependent on MuR and MuF. IScaleDep = 1
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] Using 35 subprocesses and PDF flags: 3, 0, 35.
+[fnloUtils::InitFastNLO] fastNLO initialisation for NNLOJET histo/fastNLO grid with id = 1 and process: WmJ
+[fnloUtils::InitFastNLO] Gridname: ptj1, process name: WmJ, job name: WmJ_RRa
+[fnloUtils::InitFastNLO] Warmup filename: WmJ.WmJ_RRa.ptj1.wrm
+[fnloUtils::InitFastNLO] Steering filename: WmJ.ptj1.str
+[fnloUtils::InitFastNLO] Table basename: WmJ.WmJ_RRa.RRa.ptj1.s1
+ # INFO.    [fastNLOCreate::fastNLOCreate] Warmup file does not exist, so presumably this is a warmup run: WmJ.WmJ_RRa.ptj1.wrm
+ # INFO.    [fastNLOCreate::fastNLOCreate] Read steerfile: fastnlo.str	 namespace: WmJ.WmJ_RRa.ptj1.wrm
+ # INFO.    [fastNLOCreate::SetCacheSize] Using cache for fill weights (for flex tables). CacheType = 2	CacheMax = 30	CacheCompare = 10
+ # WARNING! [fastNLOCreate::GetWarmupValues] This will be a warmup run.
+ # INFO.    [fastNLOCreate::Instantiate] zlib compression requested. Adding .gz to filename.
+ # INFO.    [fastNLOCreate::SetBinningND] Set binning successfully for 31 bins in 1 dimensions.
+ # INFO.    [fastNLOCreate::SetBinningND] VIV: Set binning via vector with bin edges.
+ # INFO.    [fastNLOCreate::ReadBinningFromScenarioConsts] Read in successfully 1-dimensional bin grid with 31 bins.
+[fnloSuprocesses::AllSubprocessToSubprocZero()] Caution! deleting subprocess mapping.
+[fnloUtils::InitFastNLO] The flexible-scale table format has been chosen.
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] Base order ord = 3
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] NLO scale dependence: Dependent on MuR and MuF. IScaleDep = 1
+ # INFO.    [fastNLOCreate::SetOrderOfAlphasOfCalculation] Using 35 subprocesses and PDF flags: 3, 0, 35.
+ * 1 cross                   (cross)                                                                  *                              
+ *                                                                                                    *
+ *                                                                                                    *
+ * Multi runs:                                                                                        *
+ *                                                                                                    *
+ *   no MultiRun set up                                                                               *
+ *                                                                                                    *
+ * PDF Interpolation:                                                                                 *
+ *                                                                                                    *
+ * active:                   stepfac =    2.0                                                         *
+ *                                                                                                    *
+ ******************************************************************************************************
+ resetCurrentSweep_run
+ loadNextSweep_run:            2
+ Repository id: []
+ **Runs of the code intended for publication must be done with committed versions of the repository**
+ resetCurrentSweep_run
+ loadNextSweep_run:            2
+ 
+ ------------------------------------------------
+ loadNextContrib_chan: loaded RRa ...
+ production...
+  > > Entering legacy wrapper for NNLOJET with Vegas! < < 
+ Entering New Vegas
+ Reading grid from WmJ.WmJ_RRa.y1.00E-07.RRa
+Commencing iteration n 1
+Number of events: 30000000
+ > > Current progress: 5% > > Current progress: 10% > > Current progress: 15% > > Current progress: 20% > > Current progress: 25% > > Current progress: 30% > > Current progress: 35% > > Current progress: 40% > > Current progress: 45% > > Current progress: 50% > > Current progress: 55% > > Current progress: 60% > > Current progress: 65% > > Current progress: 70% > > Current progress: 75% > > Current progress: 80% > > Current progress: 85% > > Current progress: 90% > > Current progress: 95% > > Current progress: 100%### nnlo::term(): Received normalisation value of norm = 3.33333e-08
+[nnlo::term_fastnlo] AAA: Received normalisation weights of wsum = 3e+07
+[nnlo::term_fastnlo] fastNLO warmup run finished ...
+
+ ------------------- fastNLOstats ------------------
+   Time elapsed:                 00:58:28
+   Total event weight (NEvt):     3e+07
+   Contributions in phase space:  191159397
+   Number of calls:                193201923
+ -------------------------------------------------
+
+ # INFO.    [fastNLOCreate::WriteTable] Writing warmup table instead of coefficient table.
+          	3.207e-04   2.800e-04   2.8e-04   n=179898
+          	3.074e-04   2.800e-04   2.8e-04   n=12807111
+          	3.634e-04   3.400e-04   3.4e-04   n=21025314
+          	3.808e-04   3.600e-04   3.6e-04   n=15130431
+          	4.244e-04   4.000e-04   4.0e-04   n=12655545
+          	4.488e-04   4.200e-04   4.2e-04   n=11183553
+          	5.080e-04   4.800e-04   4.8e-04   n=12756597
+          	5.142e-04   4.800e-04   4.8e-04   n=11648847
+          	6.259e-04   6.000e-04   6.0e-04   n=9901263
+          	7.221e-04   7.000e-04   7.0e-04   n=7434900
+          	8.038e-04   7.800e-04   7.8e-04   n=9632052
+          	9.528e-04   9.200e-04   9.2e-04   n=8652000
+          	1.204e-03   1.000e-03   1.0e-03   n=7429002
+          	1.238e-03   1.000e-03   1.0e-03   n=6615420
+          	1.596e-03   1.200e-03   1.2e-03   n=5562741
+          	1.804e-03   1.600e-03   1.6e-03   n=4595604
+          	2.259e-03   2.000e-03   2.0e-03   n=3510300
+          	2.338e-03   2.000e-03   2.0e-03   n=3070515
+          	2.776e-03   2.400e-03   2.4e-03   n=2775126
+          	3.353e-03   3.000e-03   3.0e-03   n=2470812
+          	3.730e-03   3.400e-03   3.4e-03   n=2205822
+          	4.079e-03   3.800e-03   3.8e-03   n=3899013
+          	5.196e-03   4.800e-03   4.8e-03   n=3288213
+          	6.254e-03   6.000e-03   6.0e-03   n=2283156
+          	7.419e-03   7.200e-03   7.2e-03   n=2392179
+          	1.005e-02   8.000e-03   8.0e-03   n=1892337
+          	1.204e-02   1.000e-02   1.0e-02   n=1864329
+          	1.530e-02   1.200e-02   1.2e-02   n=1302039
+          	2.105e-02   1.600e-02   1.6e-02   n=917937
+          	2.576e-02   2.200e-02   2.2e-02   n=1355640
+          	3.883e-02   3.400e-02   3.4e-02   n=721701
+ # INFO.    [fastNLOCreate::WriteWarmupTable] Writing warmup table to: WmJ.WmJ_RRa.ht_full.wrm
+[nnlo::term_fastnlo] BBB: Received normalisation weights of wsum = 3e+07
+### nnlo::term(): Received normalisation value of norm = 3.33333e-08
+[nnlo::term_fastnlo] AAA: Received normalisation weights of wsum = 3e+07
+[nnlo::term_fastnlo] fastNLO warmup run finished ...
+
+ ------------------- fastNLOstats ------------------
+   Time elapsed:                 00:58:28
+   Total event weight (NEvt):     3e+07
+   Contributions in phase space:  192337578
+   Number of calls:                193201923
+ -------------------------------------------------
+
+ # INFO.    [fastNLOCreate::WriteTable] Writing warmup table instead of coefficient table.
+          	3.074e-04   2.800e-04   2.8e-04   n=22353390
+          	3.634e-04   3.400e-04   3.4e-04   n=15534408
+          	4.017e-04   3.800e-04   3.8e-04   n=11864238
+          	3.808e-04   3.600e-04   3.6e-04   n=19226139
+          	4.227e-04   4.000e-04   4.0e-04   n=16683798
+          	4.495e-04   4.200e-04   4.2e-04   n=14910060
+          	4.708e-04   4.400e-04   4.4e-04   n=11362305
+          	5.386e-04   5.000e-04   5.0e-04   n=8818248
+          	5.142e-04   4.800e-04   4.8e-04   n=7954023
+          	7.221e-04   7.000e-04   7.0e-04   n=6994704
+          	7.341e-04   7.000e-04   7.0e-04   n=7772643
+          	7.341e-04   7.000e-04   7.0e-04   n=6355248
+          	8.783e-04   8.400e-04   8.4e-04   n=4417959
+          	1.019e-03   8.000e-04   8.0e-04   n=3581640
+          	1.203e-03   1.000e-03   1.0e-03   n=4921545
+          	1.257e-03   1.000e-03   1.0e-03   n=4072884
+          	1.754e-03   1.400e-03   1.4e-03   n=3440886
+          	1.884e-03   1.600e-03   1.6e-03   n=3059157
+          	2.348e-03   2.000e-03   2.0e-03   n=2656224
+          	2.807e-03   2.600e-03   2.6e-03   n=2476434
+          	2.858e-03   2.600e-03   2.6e-03   n=1878177
+          	4.101e-03   3.800e-03   3.8e-03   n=1591785
+          	3.701e-03   3.400e-03   3.4e-03   n=1386270
+          	4.849e-03   4.600e-03   4.6e-03   n=1177059
+          	5.361e-03   4.800e-03   4.8e-03   n=984438
+          	5.635e-03   5.400e-03   5.4e-03   n=1535058
+          	7.326e-03   7.000e-03   7.0e-03   n=1104165
+          	8.530e-03   8.000e-03   8.0e-03   n=825099
+          	1.128e-02   6.000e-03   6.0e-03   n=606063
+          	1.280e-02   8.000e-03   8.0e-03   n=864795
+          	1.760e-02   1.200e-02   1.2e-02   n=521658
+          	2.071e-02   1.600e-02   1.6e-02   n=332925
+          	3.111e-02   2.600e-02   2.6e-02   n=259242
+          	3.326e-02   2.800e-02   2.8e-02   n=481158
+          	7.123e-02   6.600e-02   6.6e-02   n=333753
+ # INFO.    [fastNLOCreate::WriteWarmupTable] Writing warmup table to: WmJ.WmJ_RRa.ht_jets.wrm
+[nnlo::term_fastnlo] BBB: Received normalisation weights of wsum = 3e+07
+### nnlo::term(): Received normalisation value of norm = 3.33333e-08
+[nnlo::term_fastnlo] AAA: Received normalisation weights of wsum = 3e+07
+[nnlo::term_fastnlo] fastNLO warmup run finished ...
+
+ ------------------- fastNLOstats ------------------
+   Time elapsed:                 00:58:28
+   Total event weight (NEvt):     3e+07
+   Contributions in phase space:  192064821
+   Number of calls:                193201923
+ -------------------------------------------------
+
+ # INFO.    [fastNLOCreate::WriteTable] Writing warmup table instead of coefficient table.
+          	3.207e-04   3.000e-04   3.0e-04   n=1438770
+          	3.687e-04   3.400e-04   3.4e-04   n=3153414
+          	3.491e-04   3.200e-04   3.2e-04   n=5682864
+          	3.074e-04   2.800e-04   2.8e-04   n=28991214
+          	3.634e-04   3.400e-04   3.4e-04   n=21217863
+          	4.067e-04   3.800e-04   3.8e-04   n=16444728
+          	5.046e-04   4.800e-04   4.8e-04   n=13564737
+          	5.639e-04   5.400e-04   5.4e-04   n=12132996
+          	6.529e-04   6.200e-04   6.2e-04   n=11053347
+          	6.809e-04   6.600e-04   6.6e-04   n=8803194
+          	7.790e-04   7.400e-04   7.4e-04   n=6474402
+          	9.178e-04   8.800e-04   8.8e-04   n=9588420
+          	1.095e-03   8.000e-04   8.0e-04   n=8153679
+          	1.509e-03   1.200e-03   1.2e-03   n=7018017
+          	1.667e-03   1.400e-03   1.4e-03   n=5674548
+          	2.076e-03   1.800e-03   1.8e-03   n=3712659
+          	2.320e-03   2.000e-03   2.0e-03   n=2957349
+          	2.692e-03   2.400e-03   2.4e-03   n=4057314
+          	3.353e-03   3.000e-03   3.0e-03   n=3361386
+          	4.079e-03   3.800e-03   3.8e-03   n=2818563
+          	4.817e-03   4.600e-03   4.6e-03   n=2495688
+          	5.385e-03   5.000e-03   5.0e-03   n=2121753
+          	6.494e-03   6.200e-03   6.2e-03   n=1881696
+          	7.419e-03   7.200e-03   7.2e-03   n=1386450
+          	9.128e-03   8.800e-03   8.8e-03   n=1169235
+          	1.069e-02   8.000e-03   8.0e-03   n=1020018
+          	1.204e-02   8.000e-03   8.0e-03   n=846270
+          	1.489e-02   1.000e-02   1.0e-02   n=693318
+          	1.650e-02   1.400e-02   1.4e-02   n=1076898
+          	2.133e-02   1.600e-02   1.6e-02   n=771264
+          	2.614e-02   2.200e-02   2.2e-02   n=972549
+          	3.766e-02   3.200e-02   3.2e-02   n=585546
+          	4.916e-02   4.400e-02   4.4e-02   n=744672
+ # INFO.    [fastNLOCreate::WriteWarmupTable] Writing warmup table to: WmJ.WmJ_RRa.ptw.wrm
+[nnlo::term_fastnlo] BBB: Received normalisation weights of wsum = 3e+07
+### nnlo::term(): Received normalisation value of norm = 3.33333e-08
+[nnlo::term_fastnlo] AAA: Received normalisation weights of wsum = 3e+07
+[nnlo::term_fastnlo] fastNLO warmup run finished ...
+
+ ------------------- fastNLOstats ------------------
+   Time elapsed:                 00:58:28
+   Total event weight (NEvt):     3e+07
+   Contributions in phase space:  193070229
+   Number of calls:                193201923
+ -------------------------------------------------
+
+ # INFO.    [fastNLOCreate::WriteTable] Writing warmup table instead of coefficient table.
+          	3.207e-04   2.800e-04   2.8e-04   n=87330
+          	3.413e-04   3.000e-04   3.0e-04   n=140472
+          	3.074e-04   2.600e-04   2.6e-04   n=220578
+          	3.634e-04   3.200e-04   3.2e-04   n=340515
+          	3.445e-04   3.000e-04   3.0e-04   n=505491
+          	3.771e-04   3.200e-04   3.2e-04   n=732150
+          	3.709e-04   3.400e-04   3.4e-04   n=1055691
+          	4.300e-04   4.000e-04   4.0e-04   n=1474308
+          	4.305e-04   4.000e-04   4.0e-04   n=1986873
+          	4.633e-04   4.400e-04   4.4e-04   n=2597577
+          	5.274e-04   5.000e-04   5.0e-04   n=3286866
+          	5.507e-04   5.200e-04   5.2e-04   n=4060590
+          	6.476e-04   6.200e-04   6.2e-04   n=4889487
+          	7.199e-04   6.800e-04   6.8e-04   n=5714427
+          	8.353e-04   8.000e-04   8.0e-04   n=6526629
+          	8.979e-04   8.600e-04   8.6e-04   n=7285398
+          	1.047e-03   8.000e-04   8.0e-04   n=8022030
+          	1.288e-03   1.000e-03   1.0e-03   n=8571954
+          	1.499e-03   1.200e-03   1.2e-03   n=8960070
+          	1.758e-03   1.400e-03   1.4e-03   n=9177489
+          	1.956e-03   1.600e-03   1.6e-03   n=9355425
+          	2.359e-03   2.000e-03   2.0e-03   n=9464850
+          	2.382e-03   2.000e-03   2.0e-03   n=9466509
+          	1.948e-03   1.600e-03   1.6e-03   n=9448416
+          	1.752e-03   1.400e-03   1.4e-03   n=9324738
+          	1.420e-03   1.200e-03   1.2e-03   n=9065919
+          	1.266e-03   1.000e-03   1.0e-03   n=8626722
+          	1.050e-03   8.000e-04   8.0e-04   n=8112693
+          	9.730e-04   9.400e-04   9.4e-04   n=7498908
+          	7.783e-04   7.400e-04   7.4e-04   n=6834234
+          	6.990e-04   6.600e-04   6.6e-04   n=6056940
+          	6.593e-04   6.200e-04   6.2e-04   n=5244486
+          	5.910e-04   5.600e-04   5.6e-04   n=4440261
+          	5.198e-04   4.800e-04   4.8e-04   n=3661551
+          	4.555e-04   4.200e-04   4.2e-04   n=2950881
+          	4.432e-04   4.200e-04   4.2e-04   n=2304900
+          	4.199e-04   3.800e-04   3.8e-04   n=1740864
+          	3.606e-04   3.400e-04   3.4e-04   n=1288617
+          	3.606e-04   3.200e-04   3.2e-04   n=930615
+          	3.377e-04   2.800e-04   2.8e-04   n=656856
+          	3.393e-04   2.800e-04   2.8e-04   n=455142
+          	3.170e-04   2.600e-04   2.6e-04   n=304278
+          	3.474e-04   3.000e-04   3.0e-04   n=200499
+ # INFO.    [fastNLOCreate::WriteWarmupTable] Writing warmup table to: WmJ.WmJ_RRa.yj1.wrm
+[nnlo::term_fastnlo] BBB: Received normalisation weights of wsum = 3e+07
+### nnlo::term(): Received normalisation value of norm = 3.33333e-08
+[nnlo::term_fastnlo] AAA: Received normalisation weights of wsum = 3e+07
+[nnlo::term_fastnlo] fastNLO warmup run finished ...
+
+ ------------------- fastNLOstats ------------------
+   Time elapsed:                 00:58:28
+   Total event weight (NEvt):     3e+07
+   Contributions in phase space:  191970303
+   Number of calls:                193201923
+ -------------------------------------------------
+
+ # INFO.    [fastNLOCreate::WriteTable] Writing warmup table instead of coefficient table.
+          	3.074e-04   2.800e-04   2.8e-04   n=23134917
+          	3.634e-04   3.400e-04   3.4e-04   n=17182887
+          	4.017e-04   3.800e-04   3.8e-04   n=13917000
+          	4.067e-04   3.800e-04   3.8e-04   n=22373571
+          	5.046e-04   4.800e-04   4.8e-04   n=18154644
+          	6.171e-04   5.800e-04   5.8e-04   n=15355095
+          	6.809e-04   6.600e-04   6.6e-04   n=11423235
+          	9.047e-04   8.800e-04   8.8e-04   n=8778327
+          	9.725e-04   9.400e-04   9.4e-04   n=7803852
+          	1.146e-03   8.000e-04   8.0e-04   n=6687147
+          	1.409e-03   1.200e-03   1.2e-03   n=7165881
+          	1.596e-03   1.200e-03   1.2e-03   n=5624178
+          	2.076e-03   1.800e-03   1.8e-03   n=3847263
+          	2.320e-03   2.000e-03   2.0e-03   n=3153282
+          	2.656e-03   2.400e-03   2.4e-03   n=4314837
+          	3.353e-03   3.000e-03   3.0e-03   n=3586047
+          	4.079e-03   3.800e-03   3.8e-03   n=3025431
+          	4.741e-03   4.400e-03   4.4e-03   n=2624748
+          	5.385e-03   5.000e-03   5.0e-03   n=2172408
+          	6.254e-03   6.000e-03   6.0e-03   n=1952703
+          	7.886e-03   7.600e-03   7.6e-03   n=1479801
+          	9.128e-03   8.800e-03   8.8e-03   n=1244394
+          	1.069e-02   8.000e-03   8.0e-03   n=1064931
+          	1.204e-02   8.000e-03   8.0e-03   n=879975
+          	1.457e-02   1.000e-02   1.0e-02   n=730032
+          	1.650e-02   1.400e-02   1.4e-02   n=1119951
+          	2.175e-02   1.600e-02   1.6e-02   n=793638
+          	2.576e-02   2.000e-02   2.0e-02   n=574341
+          	3.105e-02   2.600e-02   2.6e-02   n=417330
+          	3.766e-02   3.200e-02   3.2e-02   n=597384
+          	4.928e-02   4.400e-02   4.4e-02   n=791073
+ # INFO.    [fastNLOCreate::WriteWarmupTable] Writing warmup table to: WmJ.WmJ_RRa.ptj1.wrm
+[nnlo::term_fastnlo] BBB: Received normalisation weights of wsum = 3e+07
+### nnlo::term(): Received normalisation value of norm = 3.33333e-08
+
+************* Integration by Vegas (iteration   1) **************
+*                                                               *
+*  integral  = 0.13714405E+13   accum. integral = 0.13714405E+13*
+*  std. dev. = 0.49824442E+12   accum. std. dev = 0.49824442E+12*
+*                                                               *
+**************   chi**2/iteration =  0.000       ****************
+
+ writing histogram: WmJ.WmJ_RRa.RRa.ht_full_var.s1.dat
+ writing histogram: WmJ.WmJ_RRa.RRa.ht_jets_var.s1.dat
+ writing histogram: WmJ.WmJ_RRa.RRa.ptw_var.s1.dat
+ writing histogram: WmJ.WmJ_RRa.RRa.yj1_var.s1.dat
+ writing histogram: WmJ.WmJ_RRa.RRa.ptj1_var.s1.dat
+ writing histogram: WmJ.WmJ_RRa.RRa.cross.s1.dat
+
+    qbqb_scale01    0.00000         0.00%
+     qbg_scale01    0.00000         0.00%
+     qbq_scale01    0.00000         0.00%
+     gqb_scale01    0.00000         0.00%
+      gg_scale01    5688.23       100.00%
+      gq_scale01    0.00000         0.00%
+     qqb_scale01    0.00000         0.00%
+      qg_scale01    0.00000         0.00%
+      qq_scale01    0.00000         0.00%
+     tot_scale01    5688.23     +-    1766.50     fb
+
+    qbqb_scale02    0.00000         0.00%
+     qbg_scale02    0.00000         0.00%
+     qbq_scale02    0.00000         0.00%
+     gqb_scale02    0.00000         0.00%
+      gg_scale02    8456.95       100.00%
+      gq_scale02    0.00000         0.00%
+     qqb_scale02    0.00000         0.00%
+      qg_scale02    0.00000         0.00%
+      qq_scale02    0.00000         0.00%
+     tot_scale02    8456.95     +-    2639.52     fb
+
+    qbqb_scale03    0.00000         0.00%
+     qbg_scale03    0.00000         0.00%
+     qbq_scale03    0.00000         0.00%
+     gqb_scale03    0.00000         0.00%
+      gg_scale03    3942.91       100.00%
+      gq_scale03    0.00000         0.00%
+     qqb_scale03    0.00000         0.00%
+      qg_scale03    0.00000         0.00%
+      qq_scale03    0.00000         0.00%
+     tot_scale03    3942.91     +-    1217.81     fb
+
+
+ Elapsed time =    58.4629     minutes 
